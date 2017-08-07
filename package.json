@@ -1,0 +1,53 @@
+{
+  "name": "fcbox",
+  "version": "1.0.0",
+  "description": "fcbox with vue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acfe/fcbox.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config scripts/config/webpack-dev-server.config.js --progress --inline --colors --hot",
+    "build": "webpack --config scripts/config/webpack-production.config.js --progress --colors",
+    "watch": "webpack -w --config scripts/config/webpack-production.config.js --progress --colors"
+  },
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "file-loader": "*",
+    "git-revision-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "less": "*",
+    "less-loader": "*",
+    "react-hot-loader": "*",
+    "style-loader": "*",
+    "transfer-webpack-plugin": "*",
+    "url-loader": "*",
+    "vue-router": "^2.6.0",
+    "weixin-js-sdk": "^1.2.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1",
+    "vue": "^2.3.3",
+    "vue-loader": "^12.1.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.3",
+    "vuex": "^2.3.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-manifest-plugin": "^1.1.0",
+    "webpack-write-version-plugin": "0.0.1"
+  }
+}
